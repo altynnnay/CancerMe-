@@ -1,3 +1,5 @@
+![CancerMe Banner](assets/A_GitHub_banner-style_digital_illustration_designe.png)
+
 # CancerMe – AI Skin Cancer Detection  
 **Author**: Aralbek Altynay  
 **Prototype project using deep learning and Gradio (Colab-based)**  

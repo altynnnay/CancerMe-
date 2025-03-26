@@ -20,7 +20,16 @@ This is not yet a standalone web app — it currently runs in **Google Colab** a
 - 📊 Evaluated model with test metrics and class balance analysis  
 - 🖼️ Includes **random image prediction testing block** (visual + prediction)  
 - 🌐 **Interactive interface using Gradio**, allowing non-programmers to use the model  
-- 💡 Clean interface, author name included, easy to expand into a full web app  
+- 💡 Clean interface, author name included, easy to expand into a full web app
+
+## 🧠 Features
+
+- 🌐 Built on top of the HAM10000 skin lesion dataset (Kaggle)
+- 🧪 Trained a CNN model to classify 7 types of skin lesions
+- 📸 Accepts dermatoscopic image input
+- 🔍 Predicts the lesion class using AI
+- 🧑‍💻 Built with Google Colab + TensorFlow + Gradio
+- ⚡ Fast prototype, runs entirely in a notebook
 
 ## 🗂 Dataset Used  
 - **HAM10000 (Human Against Machine)**  
@@ -39,12 +48,14 @@ Model classifies images into the following skin lesion types:
 - `nv`: Melanocytic nevi  
 - `vasc`: Vascular lesions
 
-## ⚙️ How to Run the Prototype  
+## ⚙️ How to Run
 
-1. Open the notebook `skin-cancer-detector.ipynb` in **Google Colab**  
-2. Run the cells sequentially to load and preprocess data, train the model and launch Gradio  
-3. Use the upload button in the Gradio UI to test your own image  
-4. You’ll see the predicted class displayed instantly  
+You can run this notebook directly in [Google Colab](https://colab.research.google.com/):
+
+1. Clone the repo or open the notebook in Colab
+2. Upload your own `kaggle.json` API key to download the dataset
+3. Run all cells
+4. Use the Gradio UI to upload images and get predictions
 
 ## 📌 Author Contribution
 
@@ -56,10 +67,12 @@ This notebook was:
 - Organized, visualized and deployed in Colab by **Aralbek Altynay**
 
 ## 🌐 License & Acknowledgements
-
-- Dataset by Tschandl et al., used under **CC BY-NC-SA 4.0**  
+- Dataset: [HAM10000 - Human Against Machine](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
+- Inspired by open-source community projects
+- Developed as a PhD student’s prototype: Aralbek Altynay  
 - Notebook created for educational and experimental purposes  
 - Please cite the dataset if re-used in future work
+- This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 ## 🚧 Future Work  

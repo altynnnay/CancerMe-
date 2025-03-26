@@ -1,6 +1,6 @@
 <p align="center">
   <img src="assets/cancering.png" alt="CancerMe Banner" width="700"/>
-</p>
+</p> 
 
 # CancerMe – AI Skin Cancer Detection  
 **Author**: Aralbek Altynay  

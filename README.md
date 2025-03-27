@@ -5,6 +5,9 @@
 # CancerMe – AI Skin Cancer Detection  
 **Author**: Aralbek Altynay  
 **Prototype project using deep learning and Gradio (Colab-based)**  
+## 🚀 Try it Live  
+
+https://huggingface.co/spaces/altynnnay/cancerme
 
 ## 🧬 Overview  
 **CancerMe** is a prototype for skin cancer detection using deep learning and a simplified AI interface built with **Gradio**.  
